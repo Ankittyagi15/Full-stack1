@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application</title>
+    <style>
+        h1{
+            color: blue;
+          
+            text-align: center;
+        }
+        .fn1{
+            text-align: center;
+        }
+        .fn2{
+            margin-left: 700px;
+        }
+        .fn3{
+            border-color: blue;
+        }
+        .fn4{
+            margin-left: 700px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <fieldset class="fn3"><legend>personal info</legend>
+    <p class="fn1">
+        First name
+    </p>
+    <input class="fn2" type="text" placeholder="First Name">
+    <p class="fn1">
+        second name
+    </p>
+    <input class="fn2" type="text" placeholder="second Name">
+    <p class="fn1">
+        Email
+    </p>
+    <input class="fn2" type="email" placeholder="Email">
+    <br>
+    </fieldset>
+    <fieldset class="fn3"><legend>Job Details</legend>
+    <p class="fn1">
+        postion applied
+    </p>
+    <select class ="fn2"name="" id="postion applied">
+        <option value="HR">HR</option>
+        <option value="Ceo">Ceo</option>
+        <option value="Manager">Manager</option>
+    </select>
+    <p class="fn1">
+        year of experince
+    </p>
+    <input class="fn2" type="number">
+    </fieldset>
+    <br>
+
+
+    <fieldset class="fn3"><legend>Avalability</legend>
+        <p class="fn1">
+                Avalability Start
+        </p>
+        <input type="date" class="fn2">
+        <p class="fn2">
+            Willing to Relocate
+        </p>
+       <input type="checkbox" id="Willing to Relocate"class="fn2">
+       <label for="Willing to Relocate">Yes</label>
+       <input type="checkbox" id="Willing to Relocate"class="fn2">
+       <label for="Willing to Relocate">no</label>
+
+
+    </fieldset>
+    <button class="fn4">Sumbit</button>
+
+</body>
+</html>
