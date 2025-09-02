@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankit's Dhaba</title>
+  <style>
+    header {
+      background-color: skyblue;
+      color: black;
+      text-align: center;
+      padding: 50px;
+      border-radius: 10px;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: black;
+      color: white;
+      padding: 15px;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      border-radius: 20px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background: red;
+    }
+
+    .sidebar a:active {
+      background: aqua;
+    }
+
+    .content {
+      margin-left: 250px;
+      padding: 20px;
+    }
+
+    footer {
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .Box1 {
+      width: 150px;
+      background-color: aquamarine;
+      padding: 15px;
+      height: 150px;
+      border-radius: 10px;
+      display: inline-block;
+      margin: 10px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .Box1 img {
+      width: 100px;
+      transition: 0.3s;
+    }
+
+    .Box1 img:hover {
+      width: 120px;
+    }
+
+    .Box1:hover {
+      cursor: pointer;
+      background-color: #7fffd4;
+      transform: scale(1.05);
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ankit's Dhaba</h1>
+  </header>
+
+  <div class="sidebar">
+    <h2>Menu</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Starters</a>
+      <a href="#">Main Course</a>
+      <a href="#">Contact</a>
+    </nav>
+  </div>
+
+  <div class="content">
+    <h2>Our Specials</h2>
+
+    <a href="11.html" target="_blank">
+      <div class="Box1">
+        <img src="pizza.jpeg" alt="pizza">
+        <p>Classic pizza with fresh cheese</p>
+      </div>
+    </a>
+
+    <a href="background.html" target="_blank">
+      <div class="Box1">
+        <img src="burger.jpeg" alt="burger">
+        <p>Tasty Burger</p>
+      </div>
+    </a>
+
+    <a href="chess.html" target="_blank">
+      <div class="Box1">
+        <img src="briyani.jpeg" alt="biryani">
+        <p>Delicious Biryani</p>
+      </div>
+    </a>
+  </div>
+
+  <footer>📞 Contact us:</footer>
+</body>
+</html>
